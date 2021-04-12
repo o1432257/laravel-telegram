@@ -21,7 +21,7 @@ class TelegramBot extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'let telegram bot talk';
 
     /**
      * Create a new command instance.
@@ -41,7 +41,7 @@ class TelegramBot extends Command
     public function handle()
     {
         $notiable = [
-            'message' => $this->ask('請說')
+            'message' => $this->ask('我要說什麼?')
         ];
         Notification::route(TelegramChannel::class, '')
             ->notify(new InvoicePaid($notiable));
