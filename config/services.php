@@ -33,8 +33,4 @@ return [
     'telegram-bot-api' => [
         'token' => env('TELEGRAM_BOT_TOKEN', '1738789115:AAEWluthgubcRzNtG_YJmXHqzz2RtcIiS7E')
     ],
-
-    'discord' => [
-        'token' => 'ODMwMDExNDE3Mjk3NTUxMzYw.YHAeXg.OHXMmrCDuR5UiacPGKwBe89LsmA'
-    ],
 ];
